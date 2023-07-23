@@ -1,0 +1,86 @@
+.home_container{
+    /* border: 4px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.home_container h1{
+    font-size: 4rem;
+    background-color: antiquewhite;
+    padding: 2rem;    
+}
+
+.home_container form{
+    font-size: 3rem;
+}
+
+.home_container form input{
+    /* border: 4px solid orange; */
+    font-size: 3rem;
+}
+
+.home_container form textarea{
+    /* border: 4px solid orange; */
+    font-size: 2rem;
+}
+
+.images_home_slider{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 2px solid green;  */
+    flex-wrap: wrap;
+}
+
+.slider_1_img,.slider_2_img,.slider_3_img,.slider_4_img{
+    margin: 2rem;
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+}
+
+
+
+
+.home_slider_profile_container{
+    /* border: 3px solid red; */
+    width: 20rem;
+    height: 20rem;
+    margin: 5rem;
+    position: relative;
+}
+
+.home_signup_profile_pic{
+    width: 20rem;
+    border-radius: 50%;
+    border:2px solid gray;
+    object-fit:cover;
+    height: 20rem;
+}
+
+.home_add-picture-icon{
+    position: absolute;
+    /* bottom:0;
+    left:5rem; */
+    color:green;
+    /* background: white; */
+    cursor:pointer;
+    z-index:99;
+    top: 50%;
+    left: 50%;
+    font-size: 5rem;
+}
+
+.upload_home_data{
+    border: 4px solid red;
+    background-color: blue;
+    border-radius: 20rem;
+    font-size: 4rem;
+    padding: 2rem;
+    text-align: center;
+    width: 20rem;
+    color: white;
+    text-transform: uppercase;
+}

@@ -1,0 +1,112 @@
+/* login */
+.login_form_div{
+    border: 4px solid salmon;
+    width: 40rem;
+    margin: auto;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.login_form_div form{
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+    justify-content: center;
+    align-items: center ;
+} 
+
+.login_form_div form input{
+    width: 30rem;
+    margin: 2rem;
+}
+.login_form_div form input[type="submit"]{
+        width: 20rem;
+        text-align: center;
+        background-color:brown;
+        color:white;
+        padding: 2rem;
+        border-radius: 20rem;
+} 
+
+
+/* home and sidehome */
+
+.master_row1{
+    display: flex;
+    flex-direction: row;
+    /* border: 5px solid yellow; */
+    width: 100%;
+    justify-content: space-between;
+}
+
+.master_row1_div1{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    /* border: 3px solid brown; */
+    width: 60%;
+}
+
+.master_row1_div2{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    /* border: 3px solid brown; */
+    width: 39%;
+}
+
+
+
+/* .sidehomeimgdiv{
+    border: 4px solid green;
+    width: 100%;
+    height: 100%;
+    text-align: right;
+} */
+
+.sidehomeimgdiv{
+    /* border: 4px solid green; */
+    width: 100%;
+    height: 80vh;
+    /* text-align: right; */
+    /* object-fit: cover; */
+    box-shadow: rgba(158, 29, 111, 0.4) -5px 5px, rgba(55, 25, 201, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+
+.sidehomeimg{
+    /* border: 4px solid red; */
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* social link */
+
+.social_main_div1{
+    margin-top: 2rem;
+    display: flex;
+    /* border: 2px solid brown; */
+    justify-content: space-around;
+    /* background-color: brown; */
+    padding: 1rem;
+    border-radius: 20rem;
+}
+
+.social_main_div1 a{
+    color: black;
+}
+
+.icon_i{
+    font-size: 6rem;
+    cursor: pointer;
+}
+.fa-github{
+    color: white;
+}
+.fa-instagram{
+    color: blue;
+}
+.fa-linkedin{
+    color: yellow;
+}

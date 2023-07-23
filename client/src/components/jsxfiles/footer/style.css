@@ -1,0 +1,132 @@
+.foter_container{
+    margin-top: 5rem;
+    /* background-color:rgba(23, 6, 69, 1); */
+    max-width: 100vw;
+    min-height: 50vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+footer{
+  position: relative;
+  width: 100%;
+  min-height: 10rem;
+  background-color:#3586FF;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+ flex-direction: column;
+  align-items: center;
+}
+footer .social_icons,
+footer .menu{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+}
+
+footer .social_icons li,
+footer .menu li{
+  list-style: none;
+}
+
+footer .social_icons li a{
+  font-size: 4rem;
+  color: #fff;
+  margin: 0 1rem;
+  transition: 0.1s;
+  display: inline-block;
+ 
+}
+
+
+footer .social_icons li a:hover{
+  color:black;
+  transform: translateY(-1rem);
+}
+
+
+footer .menu li a{
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 1rem;
+  transition: 0.1s;
+  display: inline-block;
+  text-decoration: none;
+  opacity: 0.75;
+}
+footer .menu li a:hover{
+  opacity: 1;
+}
+
+footer p{
+  color:#fff;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+
+footer .wave{
+  position: absolute;
+  top:-10rem;
+  left: 0;
+  width: 100%;
+  height: 10rem;
+  background:url("../../assests/image/wave.png");
+  background-size: 100rem 10rem;
+}
+
+footer .wave#wave1{
+  z-index: 1000;
+  opacity: 1;
+  bottom: 0;
+  animation: animate1 4s linear infinite;
+}
+
+
+
+
+footer .wave#wave2{
+  z-index: 999;
+  opacity: 0.5;
+  bottom: 1rem;
+  animation: animate2 4s linear infinite;
+}
+
+
+footer .wave#wave3{
+  z-index: 999;
+  opacity: 0.2;
+  bottom: 1.5rem;
+  animation: animate2 3s linear infinite;
+}
+
+
+footer .wave#wave4{
+  z-index: 999;
+  opacity: 0.7;
+  bottom: 2rem;
+  animation: animate2 3s linear infinite;
+}
+
+@keyframes animate1 {
+  0%{
+    background-position-x: 100rem;
+  }
+  100%{
+    background-position-x: 0rem;
+  }
+}
+@keyframes animate2 {
+  0%{
+    background-position-x: 0rem;
+  }
+  100%{
+    background-position-x: 100rem;
+  }
+}

@@ -1,0 +1,32 @@
+
+.register_headline{
+    text-align: center;
+    background:chocolate;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.signup_profile_container{
+    width: 10rem;
+    height: 10rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.signup_profile_pic{
+    width: 10rem;
+    border-radius: 50%;
+    border:2px solid gray;
+    object-fit:cover;
+    height: 10rem;
+}
+
+.add-picture-icon{
+    position: absolute;
+    bottom:0;
+    right:1rem;
+    color:green;
+    background: white;
+    cursor:pointer;
+    z-index:99;
+}
