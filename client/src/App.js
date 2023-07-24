@@ -19,7 +19,7 @@ const App = () => {
   const {PortfolioUser,token}=useSelector((state)=>state.auth);
   return (
     <>
-    <div className="container">
+    <div className="app_container">
     <Navbar />
     {/* <ShowTabs /> */}
     {PortfolioUser && token?<ShowTabs />:(<></>)}

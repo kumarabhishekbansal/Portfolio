@@ -1,7 +1,7 @@
 import React, { useState } from "react";
+import "./style.css"
 import "../../../reacttabs send to backend/styles/Register.css";
 import registerimg from "../../../reacttabs send to backend/assests/images/register.jpg";
-import si1 from "../../../reacttabs send to backend/assests/images/si1.jpg";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -49,7 +49,7 @@ const ContactUs = () => {
 
   return (
     <>
-      <div className="container d-flex flex-column justify-content-center  register_container">
+      <div className="container d-flex flex-column justify-content-center  register_container contact_us_container">
         <h1 className="register_headline my-2">Contact Form</h1>
 
         <div className="row">

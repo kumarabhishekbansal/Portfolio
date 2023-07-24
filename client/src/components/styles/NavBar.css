@@ -14,3 +14,18 @@
     font-family: 'Noto Sans Mono', monospace;
     font-family: 'Oswald', sans-serif;
 }
+
+.nav-div-container{
+    border: 5px solid red;
+}
+
+@media screen and (min-width: 1804px) {
+    .nav-div-container{
+        border: 5px solid blue;
+        /* width: 100vw !important; */
+    }
+    .navg{
+        /* width: 100vw !important; */
+        border: 5px solid green;
+    }
+  }

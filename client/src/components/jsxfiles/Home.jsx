@@ -50,7 +50,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="container main_container my-5">
+      <div className="main_container my-5">
         {/* personal info */}
 
         <div className="master_row1">

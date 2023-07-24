@@ -36,11 +36,12 @@ const TechnologyUsed = () => {
                     <>
                       <Parallax
                         translateX={["100px", "0px"]}
-                        scale={[0.75, 1.1]}
+                        scale={[0.75, 1]}
                         easing="easeInQuad"
+                        className="parallax_tech1"
                       >
                         <div class="master_div1">
-                          <div class="master_row1">
+                          <div class="master_row1 master_tech_row">
                             <div class="col_1">
                               <figure>
                                 <img
@@ -62,12 +63,12 @@ const TechnologyUsed = () => {
                   ) : (
                     <>
                       <Parallax
-                        translateX={["-200px", "0px"]}
+                        translateX={["-100px", "0px"]}
                         scale={[0.75, 1]}
                         easing="easeInQuad"
                       >
                         <div class="master_div1">
-                          <div class="master_row1">
+                          <div class="master_row1 master_tech_row">
                             <div class="col_2_1">
                               <p class="intro1">{val.description}</p>
                             </div>

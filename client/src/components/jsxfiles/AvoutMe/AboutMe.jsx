@@ -17,7 +17,7 @@ const AboutMe = () => {
 
   return (
     <>
-      <div className="container about_container">
+      <div className="about_container">
         <div className="master_div1_about my-3">
           <h2 className="aboutheading my-3">About Me</h2>
           <Parallax

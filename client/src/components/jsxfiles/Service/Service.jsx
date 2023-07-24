@@ -13,7 +13,7 @@ const Service = () => {
   }, []);
   return (
     <>
-      <div className="container service_container">
+      <div className="service_container">
         <div className="master_div_service my-3">
           <h2 className="serviceheading my-3">Services</h2>
         </div>

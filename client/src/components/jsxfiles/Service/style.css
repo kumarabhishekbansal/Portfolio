@@ -7,7 +7,7 @@
     background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-    max-width: 100vw;
+    /* max-width: 100vw; */
     min-height: auto;
     border-top-left-radius: 20rem;
     border-top-right-radius: 20rem;
@@ -22,7 +22,7 @@
     position: relative;
     left: 50%;
     transform: translate(-50%);
-    min-height: auto;
+    height: auto;
     /* border: 2px solid red; */
 }
 
@@ -168,5 +168,26 @@
 
     100% {
         transform: translateX(0rem);
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .service_images_card{
+        width: 40rem;
+        margin: 2rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .service_images_card{
+        width: 30rem;
+        margin: 2rem;
+    }
+}
+
+@media screen and (min-width: 1804px) {
+    .service_images_card{
+        width: 40rem;
+        margin: 2rem;
     }
 }

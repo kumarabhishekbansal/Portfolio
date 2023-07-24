@@ -1,7 +1,7 @@
 /* about */
 @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,300;1,400;1,500&family=Noto+Sans+Mono&family=Oswald:wght@200;400&family=Roboto+Condensed:ital,wght@1,300&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -11,134 +11,141 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-.about_container{
+.about_container {
     background-color: black;
-    max-width: 100vw;
-    min-height: auto;
-    border-top-left-radius:20rem;
-    border-top-right-radius:20rem;
-}
-.master_div1_about{
-    color:white;
-    max-width: 80rem;
-    min-height: auto;
-    position:relative;
-    left:50%;
-    transform: translate(-50%);
-    min-height: 100vh;
+    /* width: 100vw; */
+    height: auto;
+    border-top-left-radius: 20rem;
+    border-top-right-radius: 20rem;
 }
 
-.aboutheading{
+.master_div1_about {
+    color: white;
+    max-width: 80rem;
+    height: auto;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    /* min-height: 100vh; */
+}
+
+.aboutheading {
     font-size: 4rem;
     text-align: center;
     font-weight: bold;
     animation: transy1 2s linear 0.8s 1 alternate forwards;
 }
 
-.contentabout{
-    text-align:justify;
+.contentabout {
+    text-align: justify;
     font-size: 2.5rem;
     letter-spacing: 0.1rem;
-    line-height:2.2;
+    line-height: 2.2;
     white-space: wrap;
     transition: all;
     animation: translrx 2s linear 0.8s 1 alternate forwards;
 }
 
-@keyframes transy1{
-    0%{
+@keyframes transy1 {
+    0% {
         transform: translateY(-20rem);
     }
-    100%{
+
+    100% {
         transform: translateY(1rem);
     }
 }
 
 
-@keyframes transy2{
-    0%{
+@keyframes transy2 {
+    0% {
         transform: translateY(100vh);
     }
-    100%{
+
+    100% {
         transform: translateY(0vh);
     }
 }
 
-@keyframes translrx{
-    0%{
+@keyframes translrx {
+    0% {
         transform: translateX(-200rem);
     }
-    100%{
+
+    100% {
         transform: translateX(0rem);
     }
 }
 
-@keyframes transrlx{
-    0%{
+@keyframes transrlx {
+    0% {
         transform: translateX(200rem);
     }
-    100%{
+
+    100% {
         transform: translateX(0rem);
     }
 }
 
 /* Achievement */
 
-.achievement_container{
+.achievement_container {
     background-color: rgba(133, 11, 239, 0.534);
     max-width: 100vw;
-    min-height: 100vh;
-    border-top-left-radius:20rem;
-    border-top-right-radius:20rem;
+    /* min-height: 100vh; */
+    height: auto;
+    border-top-left-radius: 20rem;
+    border-top-right-radius: 20rem;
 }
-.master_div_achievement{
-    color:gold;
+
+.master_div_achievement {
+    
+    color: gold;
     font-weight: bold;
     max-width: 80rem;
     min-width: 40rem;
-    position:relative;
-    left:50%;
+    position: relative;
+    left: 50%;
     transform: translate(-50%);
-    min-height: auto;
+    height: auto;
     /* border: 2px solid red; */
 }
 
-.achievementheading{
+.achievementheading {
     font-size: 4rem;
     text-align: center;
     font-weight: bold;
     letter-spacing: 1rem;
     animation: transy1 2s linear 0.8s 1 alternate forwards;
-    text-shadow: 3px 4px 7px rgba(81,67,21,0.8);
-    background: -webkit-radial-gradient(
-  circle,
-  rgba(13, 8, 96, 1) 0%,
-  rgba(9, 9, 121, 1) 21%,
-  rgba(6, 84, 170, 1) 51%,
-  rgba(0, 255, 113, 1) 100%
- );
+    text-shadow: 3px 4px 7px rgba(81, 67, 21, 0.8);
+    background: -webkit-radial-gradient(circle,
+            rgba(13, 8, 96, 1) 0%,
+            rgba(9, 9, 121, 1) 21%,
+            rgba(6, 84, 170, 1) 51%,
+            rgba(0, 255, 113, 1) 100%);
 }
 
-.achievementabout{
-    text-align:justify;
+.achievementabout {
+    text-align: justify;
     font-size: 2.5rem;
     letter-spacing: 0.1rem;
-    line-height:2.2;
+    line-height: 2.2;
     white-space: wrap;
     transition: all;
     /* color:rgba(0, 255, 113, 1); */
     font-weight: bold;
-       
+
     animation: translrx 2s linear 0.8s 1 alternate forwards;
 }
 
-.achievement_main_div_images{
+.achievement_main_div_images {
     display: flex;
     font-size: 3rem;
     justify-content: space-around;
     flex-wrap: wrap;
 }
-.achivement_images_card{
+
+.achivement_images_card {
     /* border: 4px solid brown; */
     margin: 5rem;
     width: 50rem;
@@ -148,44 +155,227 @@
     box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
 }
 
-.achivement_images_card:hover{
+.achivement_images_card:hover {
     transform: scale(1.2);
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
-@keyframes transy1{
-    0%{
+@keyframes transy1 {
+    0% {
         transform: translateY(-20rem);
     }
-    100%{
+
+    100% {
         transform: translateY(1rem);
     }
 }
 
 
-@keyframes transy2{
-    0%{
+@keyframes transy2 {
+    0% {
         transform: translateY(100vh);
     }
-    100%{
+
+    100% {
         transform: translateY(0vh);
     }
 }
 
-@keyframes translrx{
-    0%{
+@keyframes translrx {
+    0% {
         transform: translateX(-200rem);
     }
-    100%{
+
+    100% {
         transform: translateX(0rem);
     }
 }
 
-@keyframes transrlx{
-    0%{
+@keyframes transrlx {
+    0% {
         transform: translateX(200rem);
     }
-    100%{
+
+    100% {
         transform: translateX(0rem);
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .about_container {
+        border: 5px solid green;
+        height: auto;
+    }
+
+    .achivement_images_card {
+        border: 5px solid #0077B5;
+        margin: 3rem;
+        width: 40rem;
+        height: 30rem;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .achievementheading{
+        /* border: 4px solid brown; */
+        width: 50rem;
+        text-align: center;
+        margin: auto;
+    }
+    .contentabout{
+        font-size: 2rem;
+    }
+    .master_div1_about{
+        width: 60rem;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .contentabout{
+        font-size: 2rem;
+    }
+    .master_div1_about{
+        width: 60rem;
+    }
+    .achivement_images_card {
+        border: 5px solid #0077B5;
+        margin: 3rem;
+        width: 30rem;
+        height: 30rem;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .contentabout{
+        font-size: 1.5rem;
+    }
+    .master_div1_about{
+        width: 40rem;
+    }
+    .achievementheading{
+        /* border: 4px solid brown; */
+        width: 40rem;
+        text-align: center;
+        margin: auto;
+    }
+    .achievementabout{
+        font-size: 2rem;
+    }
+    .master_div_achievement{
+        width: 60rem;
+    }
+    .achivement_images_card {
+        border: 5px solid #0077B5;
+        margin: 3rem;
+        width: 20rem;
+        height: 20rem;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .contentabout{
+        font-size: 1.5rem;
+    }
+    .master_div1_about{
+        width: 40rem;
+    }
+    .achievementheading{
+        /* border: 4px solid brown; */
+        width: 30rem;
+        text-align: center;
+        margin: auto;
+    }
+    .achievementabout{
+        font-size: 2rem;
+    }
+    .master_div_achievement{
+        width: 40rem;
+    }
+    .achivement_images_card {
+        border: 5px solid #0077B5;
+        margin: 3rem;
+        width: 20rem;
+        height: 20rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .contentabout{
+        font-size: 1.5rem;
+    }
+    .master_div1_about{
+        width: 30rem;
+    }
+    .achievementheading{
+        /* border: 4px solid brown; */
+        width: 30rem;
+        text-align: center;
+        margin: auto;
+    }
+    .achievementabout{
+        font-size: 2rem;
+    }
+    .master_div_achievement{
+        width: 30rem;
+    }
+    .achivement_images_card {
+        border: 5px solid #0077B5;
+        margin: 3rem;
+        width: 20rem;
+        height: 20rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .about_container{
+        height: 200vh;
+    }
+    .contentabout{
+        font-size: 1.5rem;
+        margin-top: 5rem !important;
+    }
+    .master_div1_about{
+        width: 20rem;
+    }
+    .achievementheading{
+        /* border: 4px solid brown; */
+        width: 20rem;
+        /* text-align: center; */
+        /* margin:auto; */
+        letter-spacing: 0;
+        padding: 2rem;
+        background: none;
+    }
+    .achievementabout{
+        font-size: 1.5rem;
+        /* border: 4px solid blanchedalmond; */
+        width: 30rem !important;
+        margin: auto;
+    }
+    .master_div_achievement{
+        /* border: 4px solid blanchedalmond; */
+        width: 10rem !important;
+    }
+    .achivement_images_card {
+        border: 5px solid #0077B5;
+        margin: 3rem;
+        width: 20rem;
+        height: 20rem;
+    }
+}
+
+
+
+@media screen and (min-width: 1804px) {
+    .about_container {
+        border: 5px solid #0077B5;
+        height: auto;
+    }
+
+    .achivement_images_card {
+        border: 5px solid #0077B5;
+        margin: 3rem;
+        width: 40rem;
+        height: 30rem;
     }
 }

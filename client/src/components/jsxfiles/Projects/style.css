@@ -9,8 +9,8 @@
     box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
 
 
-    max-width: 100vw;
-    min-height: auto;
+    /* width: 100vw;     */
+    height: auto;
     border-top-left-radius: 20rem;
     border-top-right-radius: 20rem;
     margin-bottom: 5rem;
@@ -24,7 +24,7 @@
     position: relative;
     left: 50%;
     transform: translate(-50%);
-    min-height: auto;
+    height: auto;
     /* border: 2px solid red; */
 }
 
@@ -171,5 +171,35 @@
 
     100% {
         transform: translateX(0rem);
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .project_images_card{
+        width: 40rem;
+        margin: 2rem;
+    }
+    .images_all_project{
+        width: 40rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .project_images_card{
+        width: 30rem;
+        margin: 2rem;
+    }
+    .images_all_project{
+        width: 30rem;
+    }
+}
+
+@media screen and (min-width: 1804px) {
+    .project_images_card{
+        width: 40rem;
+        margin: 2rem;
+    }
+    .images_all_project{
+        width: 40rem;
     }
 }

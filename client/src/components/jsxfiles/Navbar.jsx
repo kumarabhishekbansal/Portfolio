@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg navg">
-        <div className="container-fluid">
+        <div className="container-fluid nav-div-container">
             <Link class="navbar-brand" to="#">
               <img
                 src={b2}
