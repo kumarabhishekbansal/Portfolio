@@ -23,7 +23,7 @@ router.post("/login", login);
 
 router.put("/homePage", homePage);
 
-router.get("/getAdmin", getAdmin);
+router.put("/getAdmin", getAdmin);
 
 router.put("/aboutpage",aboutpage);
 

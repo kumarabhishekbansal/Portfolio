@@ -181,7 +181,7 @@ const getAdmin = async (req, res) => {
         });
       }
     } else {
-      return res.status(200).json({
+      return res.status(400).json({
         message: "Id not found",
       });
     }

@@ -11,12 +11,14 @@ require("dotenv").config();
 // require connection mongo db
 require("./db/conn");
 
-const port=process.env.PORT||4000;
+const PORT=process.env.PORT || 4000;
 const path=require("path");
 app.use(express.static(path.join(__dirname, 'client', 'build')));
 app.get('/*', (req, res) => {
   res.sendFile(path.join(__dirname, 'client', 'build', 'index.html'));
 })
+
+
 // using middlewares
 app.use(express.json({
     limit: '50mb'
@@ -38,10 +40,7 @@ app.use(
   );
 
 
-app.get("/",(req,res)=>{
-    res.send("home page");
-})
 
-app.listen(port,()=>{
-    console.log(`server is starting at port no. ${port}`);
+app.listen(PORT,()=>{
+    console.log(`server is starting at port no. ${PORT}`);
 })

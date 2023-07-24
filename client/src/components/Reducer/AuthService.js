@@ -62,9 +62,8 @@ const sendhomepage=async(userdata)=>{
 
 // getadmin
 const getAdmin=async()=>{
-    const response=await axios.get(API_URL+'getAdmin');
-
-    console.log("response is : ",response);
+    const response=await axios.put(API_URL+'getAdmin');
+    console.log("response is : ",response.data);
     if(response.status!==200 && response.status!==201)
     {
         // console.log("Response error register : ",response.data.error);
